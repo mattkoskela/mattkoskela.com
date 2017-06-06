@@ -1,0 +1,185 @@
+/*
+Theme Name: mattkoskela-custom
+Author: Matt Koskela
+Description: mattkoskela.com
+Version: 0.0.1
+Tags: mattkoskela
+*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom for footer height */
+  margin-bottom: 50px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* General colors */
+.grey {
+  background-color: #2b3a42;
+}
+.red {
+  background-color: #ff6455;
+}
+.green {
+  background-color: #7cefbf;
+}
+.yellow {
+  background-color: #fff387;
+}
+
+/* Logo CSS */
+.logo {
+  max-width: 518px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.logo img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Bio CSS */
+.bio {
+  text-align: center;
+  padding-top: 25px;
+}
+.bio img {
+  padding-bottom: 25px;
+}
+
+/* Social button CSS */
+.social {
+  text-align: center;
+  padding-top: 5px;
+}
+.social a {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.social .row {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.social [class*="col-"] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* Footer CSS */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+#footer .row {
+  margin: 0;
+}
+#footer [class*="col-"] {
+  height: 7px;
+  border: none;
+}
+
+
+/************
+ * Body CSS *
+ ************/
+.title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.title a{
+    color: #333333;
+}
+
+/************
+ * Card CSS *
+ ************/
+.card {
+  height: 200px;
+  background-size: 100%;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.card-overlay {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    float: left;
+}
+
+a div.card:hover {
+    opacity: .9;
+}
+
+.card-box {
+  height: 200px;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.card-title {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #FFF;
+  width: 100%;
+  position: absolute;
+  padding: 30px;
+}
+
+.card-date {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+
+/************
+ * More CSS *
+ ************/
+.more {
+    display: block;
+    width: 100%;
+    background: #DDDDDD;
+    margin-top: 10px;
+    text-align: center;
+    padding: 9px;
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+}
