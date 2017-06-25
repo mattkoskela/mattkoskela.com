@@ -14,6 +14,19 @@ function create_posttype() {
             'supports' => array('title', 'editor', 'thumbnail')
         )
     );
+    register_post_type( 'photo',
+        array(
+            'labels' => array(
+                'name' => __( 'Photo Posts' ),
+                'singular_name' => __( 'Photo Post' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'photography'),
+            'menu_icon' => 'dashicons-camera',
+            'supports' => array('title', 'editor', 'thumbnail')
+        )
+    );
 }
 
 add_action( 'init', 'create_posttype' );

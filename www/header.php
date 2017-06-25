@@ -68,7 +68,7 @@
                        <ul class="nav navbar-nav">
                            <li><a href="/tech" style="color: #333;">Tech</a></li>
                            <!--<li><a href="/travel" style="color: #333;">Travel</a></li>-->
-                           <!--<li><a href="/photo" style="color: #333;">Photography</a></li>-->
+                           <li><a href="/photography" style="color: #333;">Photography</a></li>
                            <li><a href="/library" style="color: #333;">Library</a></li>
                            <li><a href="/about" style="color: #333;">About</a></li>
                            <!--<li><a href="/contact" style="color: #333;">Contact</a></li>-->
@@ -80,11 +80,11 @@
        
        <div class="row social hidden-xs">
            <div class="">
-               <div class="col-sm-4"><a href="/tech" class="red">Tech</a></div>
+               <div class="col-sm-3"><a href="/tech" class="red">Tech</a></div>
                <!--<div class="col-sm-2"><a href="/travel" class="red" target="_blank">Travel</a></div>-->
-               <!--<div class="col-sm-2"><a href="/photo" class="red" target="_blank">Photography</a></div>-->
-               <div class="col-sm-4"><a href="/library" class="red">Library</a></div>
-               <div class="col-sm-4"><a href="/about" class="red">About</a></div>
+               <div class="col-sm-3"><a href="/photography" class="red">Photography</a></div>
+               <div class="col-sm-3"><a href="/library" class="red">Library</a></div>
+               <div class="col-sm-3"><a href="/about" class="red">About</a></div>
                <!--<div class="col-sm-2"><a href="/contact" class="red" target="_blank">Contact</a></div>-->
            </div>
        </div>

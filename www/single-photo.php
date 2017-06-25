@@ -1,13 +1,16 @@
 <?php get_header(); ?>
 
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-12" style="text-align: center;">
     
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     
         <div class="story-title">
             <h2><?php the_title(); ?></h2>
+        </div>
+		<div class="story-title">
+            <i><?php the_field('shoot_type') ?></i>
         </div>
         <!--<div class="story-title">
             <i><?php //the_time('l, F jS, Y') ?></i>
