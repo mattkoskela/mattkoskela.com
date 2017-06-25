@@ -9,7 +9,7 @@
     
         <div class="row">
             <span class="title">
-                <a href="#">
+                <a href="/tech">
                     Tech
                 </a>
             </span>
@@ -53,7 +53,7 @@
     
         <div class="row">
             <span class="title" style="margin-top: 20px;">
-                <a href="#">
+                <a href="/photography">
                     Photography
                 </a>
             </span>
