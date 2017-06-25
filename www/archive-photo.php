@@ -26,7 +26,7 @@
                         <div class="card-overlay"></div>
                         <div class="card-box">
                             <div class="card-title"><?php the_title(); ?></div>
-                            <div class="card-date"><?php //the_date(); ?></div>
+                            <div style="color: #FFF; width: 100%; position: absolute; bottom: 15px; text-align: center; font-style: italic;"><?php the_field('shoot_type'); ?></div>
                         </div>
                     </div>
                 </a>
