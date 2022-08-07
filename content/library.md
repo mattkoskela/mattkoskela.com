@@ -2,7 +2,7 @@
 title: Library
 ---
 
-*Last Updated: June 29, 2017*
+*Last Updated: August 7, 2022
 
 # Currently Reading
 
@@ -10,9 +10,8 @@ title: Library
 
 # Reading Next
 
-- [The Effective Executive](https://www.amazon.com/dp/B01F1WZGNC/) by Peter Drucker
-- [Shogun](https://www.amazon.com/dp/0440178002) by James Clavell
-- [Stories of Your Life and Others](https://www.amazon.com/dp/B0048EKOP0) by Ted Chiang
+- [Deep Work](https://www.amazon.com/dp/B00X47ZVXM) by Cal Newport
+- [Rework](https://www.amazon.com/dp/0307463745) by Jason Fried & David Heinemeier Hansson
 
 # On the Shelf
 
@@ -30,22 +29,20 @@ title: Library
 - [Poor Charlie’s Almanack](https://www.amazon.com/dp/1578645018) by Charlie Munger
 - [The Innovator’s Dilemma](https://www.amazon.com/dp/0062060244) by Clayton Christensen
 - [Outliers](https://www.amazon.com/dp/B001ANYDAO) by Malcom Gladwell
-- [Rework](https://www.amazon.com/dp/0307463745) by Jason Fried &amp; David Heinemeier Hansson
 - [The Creative Mind](https://www.amazon.com/dp/0415314534) by Margaret A. Boden
 - [The Tipping Point](https://www.amazon.com/dp/B000OT8GD0) by Malcom Gladwell
 - [Mastery](https://www.amazon.com/dp/B007V65PBK) by Robert Greene
 - [Stop Thinking Like a Freelancer](https://www.amazon.com/dp/B00PJIDO9C) by Liam Veitch
-- [Deep Work](https://www.amazon.com/dp/B00X47ZVXM) by Cal Newport
+- [The Effective Executive](https://www.amazon.com/dp/B01F1WZGNC) by Peter Drucker
 
 ## Technology
 
 - [Programming Pearls](https://www.amazon.com/dp/0201657880) by Jon Bentley
-- [The Art of Intrusion](https://www.amazon.com/dp/B000S1M0DG) by Kevin Mitnick
-- [The Art of Deception](https://www.amazon.com/dp/B006BBZHAK) by Kevin Mitnick
 - [Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal](https://www.amazon.com/dp/B00CDUVSQ0) by Nick Bilton
 
 ## Fiction
 
+- [Shogun](https://www.amazon.com/dp/0440178002) by James Clavell
 - [Sphere](https://www.amazon.com/dp/B007UH4G9C) by Michael Crichton
 
 ## Health and Fitness
@@ -61,6 +58,7 @@ title: Library
 
 - [The 4-Hour Chef](https://www.amazon.com/dp/B005NJU8PA) by Tim Ferriss
 - [Tools of Titans](https://www.amazon.com/dp/B01HSMRWNU) by Tim Ferriss
+- [Tribe of Mentors](https://www.amazon.com/dp/B071KJ7PTB) by Tim Ferriss.
 - [Willpower: Rediscovering the Greatest Human Strength](https://www.amazon.com/dp/0143122231) by Roy Baumeister
 
 ## Biographies
@@ -158,7 +156,6 @@ title: Library
 - [Tuesdays with Morrie](https://www.amazon.com/dp/B000SEGMAU) by Mitch Albom.
 - [Dance of the Possible](https://www.amazon.com/dp/B06WLGYW83) by Scott Berkun.
 - [The Lifecycle of Software Objects](https://subterraneanpress.com/magazine/fall_2010/fiction_the_lifecycle_of_software_objects_by_ted_chiang) by Ted Chiang (short story).
-- [Tribe of Mentors](https://www.amazon.com/dp/B071KJ7PTB) by Tim Ferriss.
 - [After On: A Novel of Silicon Valley](https://www.amazon.com/dp/B06XZSNB3W) by Rob Reid.
 - [Principles](https://www.amazon.com/dp/1501124021) by Ray Dalio.
 - [The Graveyard Book](https://www.amazon.com/dp/B001H44FP4) by Neil Gaiman (audiobook).
@@ -167,7 +164,7 @@ title: Library
 # Read
 
 ## Biographies
-- [Ghost in the Wires](https://www.amazon.com/dp/B0047Y0F0K) by Kevin Mitnick
+
 - [Steve Jobs](https://www.amazon.com/dp/1501127624) by Walter Isaacson
 
 ## Business
@@ -187,9 +184,19 @@ title: Library
 
 *and many others...*
 
+## Security
+
+- [Ghost in the Wires](https://www.amazon.com/dp/B0047Y0F0K) by Kevin Mitnick
+- [The Art of Intrusion](https://www.amazon.com/dp/B000S1M0DG) by Kevin Mitnick
+- [The Art of Deception](https://www.amazon.com/dp/B006BBZHAK) by Kevin Mitnick
+
 ## Religious
 - [Knowing God](https://www.amazon.com/dp/B006NZ66RC) by J.I. Packer
 - [Mere Christianity](https://www.amazon.com/dp/B002BD2UR0) by C. S. Lewis
 - [The Screwtape Letters](https://www.amazon.com/dp/0060652934) by C. S. Lewis
 
 *and many others...*
+
+## Other
+
+- [Stories of Your Life and Others](https://www.amazon.com/dp/B0048EKOP0) by Ted Chiang
