@@ -103,7 +103,6 @@ module.exports = {
                     html
                     fields {
                       slug
-                      name
                     }
                     frontmatter {
                       title

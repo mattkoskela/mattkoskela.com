@@ -13,8 +13,8 @@ const Index = ({ data, location }) => {
           explore other creative outlets.
         </p>
         <p>
-          At HackEDU, my <a href="https://twitter.com/jaredablon" target="_blank">co-founder</a>
-          &nbsp;and I noticed most security training for software engineers was
+          At HackEDU, my <a href="https://twitter.com/jaredablon" target="_blank" rel="noreferrer">
+          co-founder</a> and I noticed most security training for software engineers was
           outdated, based on boring slides, or terrible videos. This isn't how engineers learn, so
           we leaned into Docker and built interactive, lab-based offensive and defensive secure
           coding training. We bootstrapped for 5 years and sold to a private equity firm in 2021.
