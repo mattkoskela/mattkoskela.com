@@ -8,7 +8,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
 
   // Get all markdown blog posts sorted by date
-  const result = await graphql(
+  const resultOld = await graphql(
     `
       {
         allMarkdownRemark(
@@ -25,6 +25,29 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     `
   )
+const result = await graphql(
+  `
+    {
+      allFile(
+        filter: {internal: {mediaType: {eq: "text/markdown"}}, sourceInstanceName: {eq: "tech"}}
+        sort: {fields: childrenMarkdownRemark___frontmatter___date, order: ASC}
+        limit: 1000
+      ) {
+        edges {
+          node {
+            childMarkdownRemark {
+              id
+              fields {
+                slug
+              }
+            }
+            sourceInstanceName
+          }
+        }
+      }
+    }
+  `
+)
 
   if (result.errors) {
     reporter.panicOnBuild(
@@ -34,7 +57,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
+  //const posts = result.data.allMarkdownRemark.nodes
+  let posts = result.data.allFile.edges
+  if (posts.length > 0) {
+    posts = posts.map((post) => (
+      {
+        ...post.node.childMarkdownRemark,
+        "category": post.node.sourceInstanceName,
+      }
+    ))
+  }
 
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
@@ -42,11 +74,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (posts.length > 0) {
     posts.forEach((post, index) => {
+      //console.log("post", post)
+      //console.log(`${post.category}/${post.fields.slug}`)
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
       createPage({
-        path: post.fields.slug,
+        path: `/${post.category}${post.fields.slug}`,
         component: blogPost,
         context: {
           id: post.id,
@@ -64,10 +98,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
 
+    console.log('node', node)
+    console.log('value', value)
+    console.log('value2', `/tech${value}`)
+    console.log('actions', actions)
+
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `/tech${value}`,
     })
   }
 }

@@ -16,8 +16,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/tech`,
+        name: `tech`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/photography`,
+        name: `photography`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content`,
-        name: `blog`,
+        name: `pages`,
       },
     },
     {
@@ -89,6 +103,7 @@ module.exports = {
                     html
                     fields {
                       slug
+                      name
                     }
                     frontmatter {
                       title

@@ -6,7 +6,7 @@ const Navi = () => {
       <>
         <Link to="/">Home</Link>
         <br />
-        <Link to="/technology">Tech</Link>
+        <Link to="/tech">Tech</Link>
         <br />
         <Link to="/photography">Photography</Link>
         <br />

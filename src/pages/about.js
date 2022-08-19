@@ -13,29 +13,30 @@ const Page = () => {
 
       <div>
         <p>
-          I am a well-rounded and driven engineering and product leader who thrives managing
-          product development teams, launching amazing products and then iterating on and
-          supporting those products. My proven track record shows my drive and ability to execute
-          across all facets of the product development process. I care deeply about building strong
-          team culture.
+          Hey, I’m Matt! I’m a multi-time bootstrapped tech founder and CTO with two 8 figure
+          exits. I am currently on a professional sabbatical while I help raise my twin boys and
+          explore other creative outlets.
         </p>
         <p>
-          As the first employee at AirMap, I built our engineering and product teams and launched
-          all of our flagship products. I drove the technical direction of AirMap towards an open
-          platform, built the team required to launch that platform, and continually delivered
-          innovative products to the drone market. These tools are used by millions of drones and
-          hundreds of developers. I was also responsible for representing AirMap internationally to
-          our important manufacturing partners (DJI, 3DR, SenseFly, etc), major developers and
-          other industry stakeholders (NASA, FAA, EASA, NATS and many others).
+          At HackEDU, my co-founder and I noticed most security training for software engineers was
+          outdated, based on boring slides, or terrible videos. This isn’t how engineers learn, so
+          we leaned into Docker and built interactive, lab-based offensive and defensive secure
+          coding training. We bootstrapped for 5 years and sold to a private equity firm in 2021.
+          We helped grow HackEDU to ~70 employees with more than 300 customers from startups to the
+          Fortune 5, and tens of thousands of developers using our platform.
         </p>
         <p>
-          Previously I co-founded Giant Media, which was acquired by Adknowledge in March 2014.
-          Giant Media built the largest native video ad network in the United States (measured by
-          ComScore) and worked with most of the biggest ad agencies and brands in the world.
+          Previously, I ran product and engineering as the first employee at AirMap, rapidly
+          building and managing a team of 25+ engineers and PM’s. I represented the company
+          globally between partners (DJI, Wing, etc), ANSPs (FAA/USA, Skyguide/Switzerland,
+          NATS/UK, etc), and other agencies/working groups (NASA, global UTM, and others).
+          AirMap was later sold to DroneUp.
         </p>
         <p>
-          I am always looking to connect with like-minded tech executives, software engineers,
-          entrepreneurs and aviators – hit me up if you want to chat!
+          At Giant Media, I bootstrapped one of the first native advertising networks. This allowed
+          the largest brands in the world to build long-form YouTube content, and Giant Media would
+          leverage our audience to deliver 100’s of millions of views to those videos. We sold to
+          another adtech company in 2014.
         </p>
       </div>
     </main>

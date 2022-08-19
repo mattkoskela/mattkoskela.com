@@ -1,3 +1,7 @@
+---
+title: CTFs and Labs
+---
+
 # CTFs and Labs
 
 ## Practice Labs
